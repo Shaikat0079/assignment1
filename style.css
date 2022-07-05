@@ -29,7 +29,8 @@ body {
 }
 
 .upper p,
-.donate p {
+.donate p,
+.donate-plan p {
     font-size: 30px;
     text-align: center;
     width: 50%;
@@ -50,12 +51,14 @@ body {
     font-weight: 600;
 }
 
-.donate h2 {
+.donate h2,
+.donate-plan h2 {
     font-size: 50px;
     text-align: center;
 }
 
-.donate p {
+.donate p,
+.donate-plan p {
     color: #2C3639;
     font-size: 20px;
 }
@@ -108,4 +111,70 @@ body {
 
 .donate form {
     margin-bottom: 40px;
+}
+
+.donate-plan {
+    margin: 50px 0;
+}
+
+.items {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding: auto;
+    /* padding: 4% 4%; */
+}
+
+#food p,
+#shelter p,
+#education p {
+    text-align: left
+}
+
+#food {
+    background-color: aquamarine;
+    margin: 2%;
+    padding: 3%;
+
+}
+
+#shelter {
+    background-color: hotpink;
+    margin: 2%;
+    padding: 3%;
+}
+
+#education {
+    background-color: coral;
+    margin: 2%;
+    padding: 3%;
+}
+
+#food h3,
+#shelter h3,
+#education h3 {
+    text-align: center;
+}
+
+#food img {
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    background-color: #2C3639;
+
+    padding: 30px;
+}
+
+footer h1,
+p {
+    text-align: center;
+    color: tomato;
+    margin: 20px;
+}
+
+footer p {
+
+    color: aliceblue;
 }
