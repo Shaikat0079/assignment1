@@ -122,44 +122,36 @@ body {
     width: 90%;
     margin: auto;
     padding: auto;
+    align-items: center;
+    justify-content: center;
     /* padding: 4% 4%; */
+}
+
+
+#food,
+#shelter,
+#education {
+    background-color: #C4D7E0;
+    margin: 2%;
+    padding: 2%;
+
+}
+
+#shelter {
+    background-color: #FFDEDE;
+}
+
+#education {
+    background-color: #FFF9D7;
 }
 
 #food p,
 #shelter p,
 #education p {
-    text-align: left
+    float: left;
+    text-align: left;
 }
 
-#food {
-    background-color: aquamarine;
-    margin: 2%;
-    padding: 3%;
-
-}
-
-#shelter {
-    background-color: hotpink;
-    margin: 2%;
-    padding: 3%;
-}
-
-#education {
-    background-color: coral;
-    margin: 2%;
-    padding: 3%;
-}
-
-#food h3,
-#shelter h3,
-#education h3 {
-    text-align: center;
-}
-
-#food img {
-    margin: 0;
-    padding: 0;
-}
 
 footer {
     background-color: #2C3639;
