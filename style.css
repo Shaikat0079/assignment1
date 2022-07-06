@@ -3,7 +3,9 @@
     padding: 0;
 }
 
-body {
+body,
+button,
+.mainLoginInput::placeholder {
     font-family: 'Nunito', sans-serif;
 }
 
@@ -52,13 +54,15 @@ body {
 }
 
 .donate h2,
-.donate-plan h2 {
+.donate-plan h2,
+.description h2 {
     font-size: 50px;
     text-align: center;
 }
 
 .donate p,
-.donate-plan p {
+.donate-plan p,
+.description p {
     color: #2C3639;
     font-size: 20px;
 }
@@ -150,6 +154,48 @@ body {
 #education p {
     float: left;
     text-align: left;
+}
+
+.description {
+    width: 50%;
+    margin: auto;
+}
+
+.subscribe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5F0BB;
+    width: 50%;
+    margin: 60px auto;
+    padding: 60px;
+    border-radius: 5px;
+}
+
+.subscribe input[type="email"] {
+    border: none;
+    background-color: #9CB4CC;
+    padding: 10px;
+    padding-right: 90px;
+    border-radius: 5px 0 0 5px;
+}
+
+.subscribe button {
+    background-color: tomato;
+    padding: 4px 15px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    /* position: relative; */
+}
+
+.mainLoginInput::placeholder,
+button {
+    font-size: 20px;
+}
+
+button {
+    color: aliceblue;
+    font-family: inherit;
 }
 
 
