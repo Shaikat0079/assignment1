@@ -31,8 +31,7 @@ button,
 }
 
 .upper p,
-.donate p,
-.donate-plan p {
+.donate p {
     font-size: 30px;
     text-align: center;
     width: 50%;
@@ -55,7 +54,6 @@ button,
 }
 
 .donate h2,
-.donate-plan h2,
 .description h2,
 .extra h2 {
     font-size: 50px;
@@ -63,7 +61,6 @@ button,
 }
 
 .donate p,
-.donate-plan p,
 .description p,
 .extra p {
     color: #2C3639;
@@ -71,7 +68,6 @@ button,
 }
 
 .donate-today,
-.donate-planning,
 .get-my-updates {
     margin: 150px 0;
 }
@@ -130,23 +126,8 @@ button,
     margin: 50px 0;
 }
 
-.items {
-    display: flex;
-    width: 90%;
-    margin: auto;
-    padding: auto;
-    align-items: center;
-    justify-content: center;
-}
-
-
-#food,
-#shelter,
-#education {
+#food {
     background-color: #C4D7E0;
-    margin: 2%;
-    padding: 2%;
-
 }
 
 #shelter {
@@ -157,16 +138,54 @@ button,
     background-color: #FFF9D7;
 }
 
-#food p,
-#shelter p,
-#education p {
-    float: left;
-    text-align: left;
+.description-donate {
+    width: 50%;
+    margin: auto;
+}
+
+.description-donate h2 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.description-donate p {
+    font-size: 20px;
+    text-align: center;
+    color: #2C3639;
+    margin: 30px 0
+}
+
+.donate-plan-item {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-around;
+}
+
+.items {
+    padding: 5% 2%;
+    margin: 0 2%;
+    /* background-color: aquamarine; */
+    border-radius: 5px;
+}
+
+.items h3 {
+    font-size: 30px;
+    margin: 15px 0;
+}
+
+.items p {
+    color: #2C3639;
+    font-weight: 600;
 }
 
 .description {
     width: 50%;
     margin: auto;
+}
+
+.get-my-updates p {
+    text-align: center;
 }
 
 .subscribe {
@@ -212,7 +231,7 @@ footer {
 }
 
 footer h2,
-p {
+footer p {
     text-align: center;
     color: tomato;
     margin: 20px;
@@ -232,12 +251,17 @@ footer p {
     margin: 90px auto;
 }
 
+.extra p {
+    text-align: center;
+}
+
 .extra-image {
     background-image: url(images/extra.jpg);
     background-size: cover;
     border-radius: 5px;
     background-repeat: no-repeat;
     display: flex;
+    margin: 30px 0;
 }
 
 .extra-description {
@@ -256,6 +280,6 @@ footer p {
 
 .extra-description p {
     text-align: right;
-    padding-left: 550px;
     color: aliceblue;
+    padding: 20px 0;
 }
