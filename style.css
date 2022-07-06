@@ -15,7 +15,6 @@ button,
     display: flex;
     display: block;
     justify-content: space-around;
-    align-items: center;
     padding: 100px 0;
     margin-bottom: 50px;
 }
@@ -30,7 +29,17 @@ button,
     margin: auto;
 }
 
-.upper p,
+.upper p {
+
+    font-size: 30px;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    color: aliceblue;
+    padding: 20px 0;
+
+}
+
 .donate p {
     font-size: 30px;
     text-align: center;
