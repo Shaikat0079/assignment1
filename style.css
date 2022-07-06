@@ -42,7 +42,8 @@ button,
 }
 
 .upper .btn,
-.donate .btn {
+.donate .btn,
+.extra-description .btn {
     border-radius: 10px;
     padding: 20px 30px;
     font-size: 20px;
@@ -55,16 +56,24 @@ button,
 
 .donate h2,
 .donate-plan h2,
-.description h2 {
+.description h2,
+.extra h2 {
     font-size: 50px;
     text-align: center;
 }
 
 .donate p,
 .donate-plan p,
-.description p {
+.description p,
+.extra p {
     color: #2C3639;
     font-size: 20px;
+}
+
+.donate-today,
+.donate-planning,
+.get-my-updates {
+    margin: 150px 0;
 }
 
 .donate-money {
@@ -84,7 +93,7 @@ button,
 .donate-money h1:nth-of-type(2) {
     color: tomato;
     border: 2px solid tomato;
-    background-color: #F1EB9A;
+    background-color: #DAEAF1;
 }
 
 .one-input {
@@ -128,7 +137,6 @@ button,
     padding: auto;
     align-items: center;
     justify-content: center;
-    /* padding: 4% 4%; */
 }
 
 
@@ -185,7 +193,6 @@ button,
     padding: 4px 15px;
     border: none;
     border-radius: 0 5px 5px 0;
-    /* position: relative; */
 }
 
 .mainLoginInput::placeholder,
@@ -201,7 +208,6 @@ button {
 
 footer {
     background-color: #2C3639;
-
     padding: 30px;
 }
 
@@ -218,5 +224,38 @@ footer h2 {
 
 footer p {
     font-size: 20px;
+    color: aliceblue;
+}
+
+.extra {
+    width: 70%;
+    margin: 90px auto;
+}
+
+.extra-image {
+    background-image: url(images/extra.jpg);
+    background-size: cover;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+.extra-description {
+    padding: 180px;
+    margin: 10px 0;
+    opacity: 70%;
+    padding-left: 50px;
+    align-items: flex-end;
+}
+
+.extra-description h3 {
+    font-size: 40px;
+    text-align: right;
+    color: aliceblue;
+}
+
+.extra-description p {
+    text-align: right;
+    padding-left: 550px;
     color: aliceblue;
 }
